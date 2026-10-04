@@ -12,7 +12,6 @@ public class Main {
         AppConfig config2 = AppConfig.getInstance();
 
         config1.setTheme("Dark"); // Change setting in one object...
-
         config1.printConfig();
         config2.printConfig(); // ...but the other object is unaware! This is bad.
 
